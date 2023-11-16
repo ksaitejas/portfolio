@@ -1,0 +1,90 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Global styles */
+.container {
+    max-width: 100%;
+    /* margin: 0 auto; */
+    padding: 20px;
+}
+
+/* footer {
+    /* max-width: 100%; */
+/* margin: 0 auto; */
+/* padding: 50px; */
+/* height: 100%; */
+/* } */
+
+/* Header styles */
+header {
+    background-color: #1d1f2f;
+    color: #fff;
+    padding: 20px 0;
+}
+
+body {
+    background-image: url(./328acceb4366a8a8b749183dae64e23f.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Hero section styles */
+#hero {
+    background: url('hero-bg.jpg') center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 200px 0;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Project section styles */
+.project {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* More CSS for additional styling */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
